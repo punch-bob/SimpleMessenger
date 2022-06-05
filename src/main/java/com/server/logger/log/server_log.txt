@@ -1,32 +1,66 @@
-θών. 05, 2022 8:56:36 AM com.server.logger.ServerLogger getInfoMessage
+θών. 05, 2022 8:40:27 PM com.server.logger.ServerLogger getInfoMessage
 INFO: 
 Server started!
 
-θών. 05, 2022 8:56:36 AM com.server.logger.ServerLogger getInfoMessage
+θών. 05, 2022 8:40:27 PM com.server.logger.ServerLogger getInfoMessage
 INFO: 
 The server is running!
 
-θών. 05, 2022 8:56:46 AM com.server.logger.ServerLogger getInfoMessage
+θών. 05, 2022 8:40:31 PM com.server.logger.ServerLogger getInfoMessage
 INFO: 
 A new client has joined!
 
-θών. 05, 2022 8:57:11 AM com.server.logger.ServerLogger getInfoMessage
+θών. 05, 2022 8:40:36 PM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+User: <jlfva>
+Send text: f;kvnadf (20:40)
+
+
+θών. 05, 2022 8:40:38 PM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+User: <jlfva>
+Send text: dlfkvnadf (20:40)
+
+
+θών. 05, 2022 8:40:45 PM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+User: <jlfva>
+Send text: .mcv adlf v (20:40)
+
+
+θών. 05, 2022 8:40:47 PM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+User: <jlfva>
+Send text: kdlfn vdnf (20:40)
+
+
+θών. 05, 2022 8:40:50 PM com.server.logger.ServerLogger getInfoMessage
 INFO: 
 A new client has joined!
 
-θών. 05, 2022 8:57:23 AM com.server.logger.ServerLogger getInfoMessage
+θών. 05, 2022 8:41:20 PM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+User: <adflvnadfv>
+Send text: vndlfn (20:41)
+
+
+θών. 05, 2022 8:41:23 PM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+User: <adflvnadfv>
+Send text: fv lfn v  (20:41)
+
+
+θών. 05, 2022 8:41:28 PM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+User: <jlfva>
+Send text: vvndfdgbn (20:41)
+
+
+θών. 05, 2022 8:42:23 PM com.server.logger.ServerLogger getInfoMessage
 INFO: 
 The client disconnected!
 
-θών. 05, 2022 8:57:36 AM com.server.logger.ServerLogger getInfoMessage
-INFO: 
-A new client has joined!
-
-θών. 05, 2022 8:58:47 AM com.server.logger.ServerLogger getInfoMessage
-INFO: 
-The client disconnected!
-
-θών. 05, 2022 8:58:53 AM com.server.logger.ServerLogger getInfoMessage
+θών. 05, 2022 8:42:28 PM com.server.logger.ServerLogger getInfoMessage
 INFO: 
 The client disconnected!
 

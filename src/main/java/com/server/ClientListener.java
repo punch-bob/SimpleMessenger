@@ -158,6 +158,7 @@ public class ClientListener extends Thread
             {
                 start = System.currentTimeMillis();
                 String data = message.getData();
+                server.infoLog("User: " + message.getNickname() + "\nSend text: " + data);
                 if (isServerComand(data))
                 {
                     executeServerComand(data);
