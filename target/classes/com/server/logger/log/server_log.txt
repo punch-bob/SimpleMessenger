@@ -1,0 +1,32 @@
+θών. 05, 2022 8:56:36 AM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+Server started!
+
+θών. 05, 2022 8:56:36 AM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+The server is running!
+
+θών. 05, 2022 8:56:46 AM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+A new client has joined!
+
+θών. 05, 2022 8:57:11 AM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+A new client has joined!
+
+θών. 05, 2022 8:57:23 AM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+The client disconnected!
+
+θών. 05, 2022 8:57:36 AM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+A new client has joined!
+
+θών. 05, 2022 8:58:47 AM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+The client disconnected!
+
+θών. 05, 2022 8:58:53 AM com.server.logger.ServerLogger getInfoMessage
+INFO: 
+The client disconnected!
+

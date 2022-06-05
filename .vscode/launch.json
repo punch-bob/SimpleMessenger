@@ -1,0 +1,30 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "com.server.Main",
+            "projectName": "lab_5"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "com.client.Main",
+            "projectName": "lab_5"
+        }
+    ],
+    "compounds": [
+        {
+          "name": "Server/Client",
+          "configurations": ["Server", "Client"],
+          "preLaunchTask": "${defaultBuildTask}",
+          "stopAll": true
+        }
+    ]
+}
