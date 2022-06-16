@@ -60,6 +60,20 @@ public class Chat extends JTextPane implements ISubscriber
         StyleConstants.setForeground(serverMessage, theme.serverMessageColor);
 
         this.setBackground(theme.backgroundColor);
+
+        updateChat();
+    }
+
+    private void updateChat()
+    {
+        this.setText("");
+        for (Message message : client.getChat())
+        {
+            String nickname = message.getNickname();
+            String data = message.getData();
+            String chatMessage = buildChatMessage(nickname, data);
+            appendToChat(chatMessage, getMessageAttrSet(nickname));
+        }
     }
 
     private void appendToChat(String chatMessage, SimpleAttributeSet attributeSet)
@@ -81,7 +95,27 @@ public class Chat extends JTextPane implements ISubscriber
         {
             return "<You>" + data;
         }
+        if (nickname.equals("server"))
+        {
+            return "\t*** " + data + " ***\n";
+        }
         return nickname + data;
+    }
+
+    private SimpleAttributeSet getMessageAttrSet(String nickname)
+    {
+        if (nickname.equals("server"))
+        {
+            return serverMessage;
+        }
+        else if (nickname.equals(client.getNickname()))
+        {
+            return clientMessage;
+        }
+        else
+        {
+            return otherClientMessage;
+        }
     }
 
     @Override
@@ -97,17 +131,6 @@ public class Chat extends JTextPane implements ISubscriber
         String nickname = newMessage.getNickname();
         String data = newMessage.getData();
         String chatMessage = buildChatMessage(nickname, data);
-        if (nickname.equals("server"))
-        {
-            appendToChat("\t*** " + data + " ***\n", serverMessage);
-        }
-        else if (nickname.equals(client.getNickname()))
-        {
-            appendToChat(chatMessage, clientMessage);
-        }
-        else
-        {
-            appendToChat(chatMessage, otherClientMessage);
-        }
+        appendToChat(chatMessage, getMessageAttrSet(nickname));
     }
 }
