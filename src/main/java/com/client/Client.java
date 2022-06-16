@@ -45,16 +45,9 @@ public class Client extends Publisher implements Runnable
         try
         {
             Message chatMessage;
-            if (message.trim().charAt(0) != '\\')
-            {
-                Date currentTime = new Date();
-                String formatedTime = dateFormat.format(currentTime);
-                chatMessage = new Message(nickname, message + " (" + formatedTime + ")\n");
-            }
-            else
-            {
-                chatMessage = new Message(nickname,  message.trim());
-            }
+            Date currentTime = new Date();
+            String formatedTime = dateFormat.format(currentTime);
+            chatMessage = new Message(nickname, message + " (" + formatedTime + ")\n");
             outputStream.writeObject(chatMessage);
             outputStream.flush();
         } 

@@ -104,7 +104,7 @@ public class ClientListener extends Thread
 
     private String getComand(String comandLine)
     {
-        return comandLine.trim().substring(1).toUpperCase().replaceAll("\\s+", "");
+        return comandLine.substring(1, comandLine.length() - 8).toUpperCase().replaceAll(" ", "");
     }
 
     private void executeServerComand(String data)
@@ -119,6 +119,7 @@ public class ClientListener extends Thread
         if (data.trim().charAt(0) == '\\')
         {
             String comandName = getComand(data);
+            System.out.println(comandName);
             try
             {
                 Enum.valueOf(ServerComands.class, comandName);
